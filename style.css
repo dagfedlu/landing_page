@@ -11,7 +11,7 @@ header {
 }
 
 .navbar {
-    padding: 50px;
+    padding: 20px;
     display: flex;
 }
 
@@ -21,7 +21,7 @@ header {
     color: #F9FAF8;
     flex: 20 1 0%;
     /* padding-left: 200px; */
-    padding-left: 300px;
+    padding-left: 330px;
 }
 
 .navbar h3 {
@@ -86,6 +86,7 @@ header {
 .category {
     display:flex;
     justify-content: center;
+    padding-bottom: 80px;
 }
 .content p,img {
     flex-direction: column;
@@ -97,10 +98,30 @@ header {
     padding:0px;
 }
 
+/* ---------------------------------------------------------------------------------------------- */
 .quote {
     background-color: #E5E7EB;
+    flex-direction: column;
+    text-align:center;
+    display: flex;
+}
+#message {
+    text-align: justify;
+    padding-top: 50px;
+    padding-left: 650px;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+}
+#message2 {
+    text-align: end;
+    padding-right: 420px;
+    font-weight: bolder;
 }
 
+
+
+/* ---------------------------------------------------------------------------------------------- */
 .footer {
     background-color: #3882F6;
 }
