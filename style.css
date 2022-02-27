@@ -83,9 +83,18 @@ header {
     font-size: 36px;
     font-weight: bolder;
 }
-.subtext {
+.category {
     display:flex;
-    margin: 10px;
+    justify-content: center;
+}
+.content p,img {
+    flex-direction: column;
+    padding: 18px;
+    margin: auto;
+
+}
+.content p{
+    padding:0px;
 }
 
 .quote {
