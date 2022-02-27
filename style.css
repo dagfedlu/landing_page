@@ -11,29 +11,35 @@ header {
 }
 
 .navbar {
+    padding: 50px;
     display: flex;
 }
 
 /* rearranging the navbar elements */
-.navbar #main-logo {
+#main-logo {
     font-size: 24px;
     color: #F9FAF8;
     flex: 20 1 0%;
+    /* padding-left: 200px; */
+    padding-left: 300px;
 }
 
 .navbar h3 {
-    font-size: xx-small;
-    margin-right: 10px;
+    font-size: small;
+    margin: 10px;
 }
 
+/* ---------------------------------------------------------------------------------------------- */
 .section1 {
     display: flex;
-    margin-right: 0px;
+    /* margin-right: 0px; */
+    padding: 50px;
+
 }
 
 .section1 .left_side {
     flex-basis: 50%;
-    padding-left: 200px;
+    padding-left: 300px;
     padding-bottom: 50px;
 }
 #hero-main-text {
@@ -60,12 +66,26 @@ header {
 
 .section1 .right_side {
     flex-basis: 50%;
+    padding-right: 300px;
     padding-bottom: 50px;
 }
+#image1 {
+    /* to be modified */
+    padding: inherit;
+}
 
-
+/* ---------------------------------------------------------------------------------------------- */
 .info {
     background-color: white;
+}
+.info h2 {
+    text-align: center;
+    font-size: 36px;
+    font-weight: bolder;
+}
+.subtext {
+    display:flex;
+    margin: 10px;
 }
 
 .quote {
